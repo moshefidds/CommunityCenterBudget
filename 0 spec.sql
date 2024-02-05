@@ -1,7 +1,7 @@
 /*
 I am a developer that developed many large developments. I’m currently developing a 55+ community with 9,000 units. 
 At the center of it all, I’m developing a 28,000-sf community center with many amenities. 
-My sales pitch in selling all 9,000 units depends on having a software that will keep track of the community center’s budget.
+My sales pitch in selling all 9,000 units depends on developing a software that will keep track of the community center’s budget.
 
 We would like to start with an expense ledger. 
 
