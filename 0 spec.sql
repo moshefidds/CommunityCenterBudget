@@ -29,7 +29,7 @@ Reports:
     (Target, 1 - gold, cause (sub-cause), $100.00). Show them with the most satisfactory on top.
 2)	Show me the total, max, min, avg spent per cause each year. But only for the past 50 years. 
     Additionally, please leave out a cause totaling less than $100.
-3)	Show me the total, max, min, avg spent for the cause previously determined as the highest sum.
+3)	Show me the same as two, for each sub-cause.
 4)	Show me the number of expenses per year, per satisfaction, with the most recent on top.
 5)	For internal use, show just the vender’s name, satisfaction score, satisfaction description with the least satisfactory on top.
 
@@ -59,4 +59,3 @@ Satisfaction description: for all medalists under 29 - their Medal, all other - 
 
 Good luck!!
 */
-
