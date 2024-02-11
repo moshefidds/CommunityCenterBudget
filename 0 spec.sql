@@ -53,9 +53,10 @@ Payment amount:
     For medalists with age 35 and older - year born plus Olympic year. 
     For all other - Olympic year divided by medalist age.
 
-Payment date: year – Olympic year, month – 01, day – length last name, hour – Medalist age divided by 8, minute – length of sport, seconds - 52, milliseconds – medalist age.
+Payment date: year – Olympic year, month – 01, day – length last name, hour – Medalist age divided by 8, minute – length of sport, seconds - 52, milliseconds – length of full name and olympic location times 10.
 
 Satisfaction description: for all medalists under 29 - their Medal, all other - copper.
 
 Good luck!!
 */
+
