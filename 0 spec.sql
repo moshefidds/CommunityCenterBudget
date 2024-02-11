@@ -59,11 +59,4 @@ Satisfaction description: for all medalists under 29 - their Medal, all other - 
 
 Good luck!!
 */
-*/
 
-<<<<<<< HEAD
-
- 
-
-=======
->>>>>>> b66f4eb5b3c005ba379219f9a89618d5252de6e1
