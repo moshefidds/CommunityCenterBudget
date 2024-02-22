@@ -14,7 +14,5 @@ create table dbo.ExpenseLedger(
 --AS I wasn't sure if you wanted a separate date for the recorded transaction or that was the PaymentDate.
     SatisfactionRate int not null constraint ck_ExpenseLedger_SatisfactionRate_must_be_between_1_and_4 check(SatisfactionRate between 1 and 4),
 	SatisfactionDesc as case SatisfactionRate when 1 then 'Gold' when 2 then 'Silver' when 3 then 'Bronze' when 4 then 'Copper' end persisted,
---AS I made the following constraint according to the instructions that   Q: Would any of the sub-causes belong to multiple causes? A: No. But the data included duplicates so I had to take it out.
-   -- constraint u_ExpenseLedger_Cause_SubCause unique(Cause, SubCause)
-)
+    constraint ck_ExpenseLedger_SubCause_must_match_up_with_Cause check(substring(SubCause, 1, 5) = substring(Cause, 1, 5)))
 go

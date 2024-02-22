@@ -18,7 +18,7 @@ select
     end,
     datetimefromparts(m.OlympicYear, 01, len(m.LastName), m.AgeofMedalist/8, len(m.Sport), 52, len(m.FirstName + m.LastName + m.OlympicLocation) * 10),
 --It makes more sense for table to have an int column and the desc computed off of that. However, for this data then I had to do the opposite to get the correct results.
-    case when m.AgeofMedalist > 29 then 4
+    case when m.AgeofMedalist >= 29 then 4
          when m.Medal = 'gold' then 1
          when m.Medal = 'silver' then 2
          when m.medal = 'bronze' then 3
